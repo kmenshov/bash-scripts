@@ -10,5 +10,4 @@ echo -e "${green}======= CLEAN =======${reset_color}"
 sudo apt-get clean
 
 echo -e "${green}======= AUTOREMOVE =======${reset_color}"
-sudo apt-get autoremove
-
+sudo apt-get -y autoremove

@@ -7,11 +7,10 @@ echo -e "${green}======= UPDATE =======${reset_color}"
 sudo apt-get update
 
 echo -e "${green}======= UPGRADE =======${reset_color}"
-sudo apt-get upgrade
+sudo apt-get -y upgrade
 
 echo -e "${green}======= DIST-UPGRADE =======${reset_color}"
-sudo apt-get dist-upgrade
+sudo apt-get -y dist-upgrade
 
 echo -e "${green}======= AUTOREMOVE =======${reset_color}"
-sudo apt-get autoremove
-
+sudo apt-get -y autoremove
